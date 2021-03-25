@@ -11,7 +11,10 @@ public class AboutController {
         model.addAttribute("about", "About us");
         return "about-main";
 
-        //some comments
+        /** adding comment into master branch
+         *
+         */
+
     }
 }
 
