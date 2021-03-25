@@ -12,7 +12,7 @@ public class AboutController {
         return "about-main";
 
 
-        /**adding comment into test branch
+        /**adding comment into master  branch
          *
          */
 
