@@ -11,10 +11,13 @@ public class AboutController {
         model.addAttribute("about", "About us");
         return "about-main";
 
-        /**adding comment into test branch
-         *
+        /**removed all message s
          *
          */
+        /**added new messages all messages
+         *
+         */
+
     }
 }
 
