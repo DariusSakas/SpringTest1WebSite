@@ -10,6 +10,8 @@ public class AboutController {
     public String about(Model model) {
         model.addAttribute("about", "About us");
         return "about-main";
+
+        //some comments
     }
 }
 
