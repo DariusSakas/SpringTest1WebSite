@@ -12,12 +12,6 @@ public class AboutController {
         return "about-main";
 
 
-        /**removed all messages testbranch
-         *
-         */
-        /**added new messages all messages
-         *
-         */
 
     }
 }
