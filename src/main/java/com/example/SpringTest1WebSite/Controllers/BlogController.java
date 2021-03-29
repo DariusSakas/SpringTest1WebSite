@@ -91,4 +91,15 @@ public class BlogController {
 
         return "redirect:/blog";
     }
+    @PostMapping("/blog/{idOfTheArticle}/remove")
+    public String blogURemoveCurrentArticle (
+            @PathVariable(value = "idOfTheArticle") long idOfTheArticle,
+            Model model ){
+
+        PostArticle postArticle = postArticleRepository.findById(idOfTheArticle).orElseThrow();
+
+        postArticleRepository.delete(postArticle);
+
+        return "redirect:/blog";
+    }
 }
